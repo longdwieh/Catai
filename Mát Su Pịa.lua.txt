@@ -16,7 +16,7 @@ textLabel.TextSize = 30 -- Kích thước chữ nhỏ
 textLabel.BackgroundTransparency = 1
 textLabel.TextStrokeTransparency = 0
 
-local function rainbowColor()
+local function yellowColor()
     local Dreamon = 0
     while true do
         Dreamon = Dreamon + 0.01
