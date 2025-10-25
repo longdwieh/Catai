@@ -12,7 +12,7 @@ textLabel.Size = UDim2.new(0, 200, 0, 40) -- Nhỏ lại kích thước hộp
 textLabel.Position = UDim2.new(0, 10, 0, 10)
 textLabel.Font = Enum.Font.FredokaOne
 textLabel.TextScaled = false
-textLabel.TextSize = 20 -- Kích thước chữ nhỏ
+textLabel.TextSize = 30 -- Kích thước chữ nhỏ
 textLabel.BackgroundTransparency = 1
 textLabel.TextStrokeTransparency = 0
 
@@ -42,9 +42,9 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 
-spawn(rainbowColor)
+spawn(YellowColor)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/FastAttackLoL/refs/heads/main/FastAttack.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
    
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
